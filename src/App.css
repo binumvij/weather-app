@@ -35,7 +35,7 @@
 .button {
   --border-right: 6px;
   --text-stroke-color: rgba(255, 255, 255, 0.537);
-  --animation-color: #aa1d29;
+  --animation-color: #ff3f31;
   --fs-size: 20px;
   letter-spacing: 3px;
   text-decoration: none;
@@ -79,8 +79,8 @@ p{
 }
 
 .card {
-  width: 639px;
-  height: 452px;
+  width: 330px;
+  height: 536px;
   background-image: linear-gradient(163deg, #ff5100 0%, #ff00e1 100%);
   border-radius: 20px;
   transition: all .3s;
@@ -88,9 +88,9 @@ p{
  }
  
  .card2 {
-  width: 639px;
-  height: 452px;
-  background-color: #212121;
+  width: 330px;
+  height: 536px;
+  background-color: #000000;
   /* border-radius: 20px; */
   transition: all .2s;
  }
@@ -125,4 +125,64 @@ p{
 
 .input:focus {
   box-shadow: 0 0 0 .15vw skyblue;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+  .card{
+    width: 330px;
+    height: 536px;
+  }
+  .card2{
+    width: 330px;
+    height: 536px;
+  } 
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+  .card{
+    width: 530px;
+    height: 536px;
+  }
+  .card2{
+    width: 530px;
+    height: 536px;
+  } 
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) { 
+    .card{
+      width: 698px;
+      height: 536px;
+  }
+    .card2{
+      width: 698px;
+      height: 536px;
+  } 
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+    .card{
+      width: 698px;
+      height: 536px;
+  }
+    .card2{
+      width: 698px;
+      height: 536px;
+} 
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+    .card{
+    width: 698px;
+    height: 536px;
+  }
+    .card2{
+      width: 698px;
+      height: 536px;
+  } 
 }
